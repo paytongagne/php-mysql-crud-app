@@ -1,33 +1,54 @@
-# INET4031 PHP Crude CRUD App (MariaDB/MySQL DB Version)
+# PHP MySQL CRUD App
 
-## Demonstrates a basic Dynamic HTML Application using PHP
+A PHP and MySQL/MariaDB web application for demonstrating database-backed Create, Read, Update, and Delete workflows.
 
-It doesn't get much more crude than this, but is a great starting point for understanding how **dynamic data-driven web applications** work.
+This repository is being cleaned up into a portfolio-ready backend/web fundamentals project. The goal is to show understanding of server-side scripting, SQL-backed applications, API-style responses, and dynamic web pages.
 
-Understand how this one works, and more modern/advanced/complex web development frameworks, won't seem so mysterious.
+## Overview
 
-This application assumes the MySQL database has certain users added and an "employees" database based on a sample dataset. Additional details will be provided in class.
+The application demonstrates how PHP can interact with a relational database to display and modify records. It also includes examples of API-style responses and client-side interaction patterns.
 
-The "credentials.php" file above has the details of the MySQL database connection.  You will need to modify this file to work for your configuration
+## Tech Stack
 
-Obviously everything is in the open and unsecure here.
+- PHP
+- MySQL / MariaDB
+- SQL
+- HTML
+- JavaScript
+- JSON responses
+- Apache-style local development
 
-## Dynamic Web Page: Server vs. Client Side
+## Concepts Demonstrated
 
-Please take a look at the following page: dynamic.php to see a very simple example of what is meant by "server-side code" and "client-side code."
+- Server-side rendering with PHP
+- Database connection configuration
+- CRUD workflows
+- API-style PHP endpoints
+- JSON output
+- AJAX-style page updates
+- Client/server separation
 
-## PHP Crude CRUD API
+## Portfolio Cleanup Goals
 
-Also included are the following files that demonstrate very crude API's.
+- Replace class-specific wording with project-focused documentation
+- Move database credentials to a safe example config file
+- Add setup instructions for local development
+- Add database schema documentation
+- Add screenshots of the application flow
+- Add security notes about credential handling and SQL injection prevention
 
-These PHP pages do not return a web page, but instead return data designed to be used by a piece of client software.
+## Important Security Note
 
-The "json" versions return the requested data in JSON format.
+This project should not expose real credentials. Any local configuration should use a sample file such as `credentials.example.php`, and real credentials should be ignored by Git.
 
-## PHP Crude CRUD API Client
+## Planned Improvements
 
-Look in the "apiclients" directory for examples of very simple Python program use the "requests" module to interact with the simple Crude CRUD API's.
+- Add `docs/setup.md`
+- Add `docs/database-schema.md`
+- Add sample screenshots
+- Add input validation notes
+- Add safer prepared-statement examples
 
-## AJAX
+## Resume-safe project description
 
-The "ajax" pages demonstrate how to do real-time updates to a web page using Asynchronous JavaScript and XML. This is an older technology, but is a great place to start to learn how to create dynamic web pages that update content area real-time as a JavaScript client sends queries to backend server code.
+PHP MySQL CRUD App: Database-backed PHP application demonstrating server-side web development, SQL queries, JSON-style responses, and CRUD workflow fundamentals.
